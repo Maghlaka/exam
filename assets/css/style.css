@@ -49,8 +49,33 @@ nav button{
 }
 .list input{
     border: 1px solid #0D9CA436 ;
-    
+    width: 100%;
     background-color: #F2F2F2;
     padding: 13px 249px 14px 18px;
     color: #000000;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    gap: 20px;
+    grid-auto-rows: auto;
+    margin: auto;
+    justify-content: space-between;
+    
+    
+}
+.cards div{
+    position: relative;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    
+}
+.description{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+
 }
