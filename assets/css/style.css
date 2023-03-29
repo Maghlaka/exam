@@ -47,6 +47,28 @@ nav button{
     width: 100%;
     
 }
+.property{
+    width: 100%;
+    row-gap: 10px;
+    display: grid;
+    margin: 13px auto;
+}
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    accent-color: #29B24E;
+  
+    cursor: pointer;
+    outline: 1px solid #29B24E;
+    
+}
+    
+.price-range{
+    width: 100%;
+    display: grid;
+    margin: 13px auto;
+    row-gap: 10px;
+}
 .list input{
     border: 1px solid #0D9CA436 ;
     width: 100%;
@@ -54,6 +76,7 @@ nav button{
     padding: 13px 249px 14px 18px;
     color: #000000;
 }
+
 .cards{
     width: 90%;
     padding-top: 20px; 
