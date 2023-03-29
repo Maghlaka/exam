@@ -133,7 +133,7 @@ h2 :nth-child(2){
     margin:41px auto;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 15px;
 
 }
 
@@ -160,3 +160,4 @@ footer{
     gap: 48px;
     flex-wrap: wrap;
 }
+
