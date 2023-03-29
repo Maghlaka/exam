@@ -45,15 +45,31 @@ nav button{
 }
 .mainimg img{
     width: 100%;
+    object-fit: cover;
     
+}
+.location{
+    display: flex;
+    flex-wrap: wrap;
 }
 .property{
     width: 100%;
     row-gap: 10px;
     display: grid;
-    margin: 13px auto;
+    margin: auto;
+    margin-top: 39px;
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin-bottom: 13px;
 }
 input[type="checkbox"]{
+    
     width: 16px;
     height: 16px;
     accent-color: #29B24E;
@@ -62,19 +78,28 @@ input[type="checkbox"]{
     outline: 1px solid #29B24E;
     
 }
+.cityes input{
+    width: 100%;
+    margin: 16px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: #F8F8F8;
+    border: 1px solid rgba(13, 156, 164, 0.21);
+    height: 48px;
+    align-items: ;
     
+    
+}
 .price-range{
     width: 100%;
     display: grid;
-    margin: 13px auto;
+    margin: auto;
+    margin-top: 39px;
     row-gap: 10px;
 }
-.list input{
-    border: 1px solid #0D9CA436 ;
-    width: 100%;
-    background-color: #F2F2F2;
-    padding: 13px 249px 14px 18px;
-    color: #000000;
+.check{
+    display: flex;
+    gap: 12px;
 }
 
 .cards{
@@ -82,13 +107,9 @@ input[type="checkbox"]{
     padding-top: 20px; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
     gap: 20px;
     grid-auto-rows: auto;
     margin: auto;
-    justify-content: space-between;
-    
-    
 }
 .cards div{
     display: flex;
@@ -148,9 +169,12 @@ h2 :nth-child(2){
     color: #000000;
 }
 .note{
+  
     position: absolute;
-    top: 198px;
-    right: 20px;
+    top: 195px;
+    right: 30px;
+    
+    
 }
 .description{
     width: 90%;
