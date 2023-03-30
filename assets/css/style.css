@@ -58,6 +58,12 @@ nav button{
 .mainimg{
     position: relative;
 }
+#trending-ads{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+}
 .mainimg h1{
     position: absolute;
     top: 60px;
@@ -342,7 +348,33 @@ footer{
     border-radius: 50px;
 }
 .main{
-    grid-row:;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.property , .price-range{
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+.cards{
+    grid-template-columns: 1fr;
+    width: 95%;
+    margin: auto;
+}
+#hr2{
+    display: block;
+   margin: 40px auto;
+}
+footer{
+    height: 326px;
+    background-color: #29B24E;
+}
+#author{
+    display: flex;
+    margin: 40px auto;
+}
+.footer:nth-child(2){
+    display: none;
 }
 }
 
