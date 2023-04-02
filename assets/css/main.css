@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    width: 100%;
+    padding-top: 42px;
+    margin: auto;
+    background-color: #F2F2F2;
+}
+.header-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+}
+a{
+    text-decoration: none;
+    color: #000000E5;
+    opacity: 90%;
+}
+#home{ 
+    padding-bottom: 9px;
+    border-bottom: 4px solid #29B24E;
+
+}
+#search{
+    display: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+nav button{
+    background-color: #29B24E;
+    padding: 13px 26px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+}
+.main{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 58px auto;
+    column-gap: 44px;
+    
+}
+
+.img img{
+    width: 100%;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+}
+.details{
+    background-color: #F8F8F8;
+    border-radius: 24px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+   
+}
+.title .vip{
+    padding: 5px 11px 5px 11px;
+    background-color: #29B24E;
+    border-radius: 15px;
+}
+.title :nth-child(3){
+    align-items: center;
+    display: flex;
+    gap: 9px;
+}
+.info{
+    width: 90%;
+    margin: auto;
+}
+.info :nth-child(1){
+    font-size: 22px;
+    margin-top: 24px;
+    font-weight: 600;
+}
+.info :nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.info :nth-child(3){
+    width: 80%;
+    font-size: 14px;
+    margin-top: 32px;
+}
+.description{
+    width: 90%;
+    margin: auto;
+    margin-top: 57px;
+    display: flex;
+    gap: 24px;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid #ECECEC;
+    margin-top: 16px;
+}
+.descr{
+    width: 90%;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.address div :nth-child(1){
+    font-size: 12px;
+
+}
+.address div{
+    display: flex;
+    flex-direction: column;
+    column-gap: 16px;
+}
