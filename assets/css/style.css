@@ -347,6 +347,9 @@ footer{
     font-size: 14px;
     font-weight: 400;
 }
+.mobile{
+    display: none;
+}
 
 
 /* 1024px resolurion */
@@ -381,6 +384,24 @@ footer{
 }
 .footer :nth-child(5){
     display: none;
+}
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    text-align:  center;
+    width: 100%;
+    margin: 84px auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    vertical-align: middle;
+    padding-top: 14px;
+}
+#sell{
+    padding: 12px;
+    background-color: #29B24E;
+    border-radius: 12px;
+    vertical-align: top;
+    color: #FFFFFF;
 }
 }
 
@@ -444,6 +465,7 @@ footer{
 .mainimg :nth-child(4){
     display: none;
 }
+
 }
 
 

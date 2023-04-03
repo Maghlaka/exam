@@ -178,10 +178,21 @@ nav button{
     grid-template-columns: 1fr;
     gap: 16px;
 }
-.estate-name div{
+
+.Estate-name div{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.Estate-name div :nth-child(1){
+    font-family: 'Poppins-regular';
+    font-weight: 400;
+    opacity: 0.6;
+}
+.Estate-name div :nth-child(2){
+    font-family: 'poppins-Medium';
+    font-weight: 500;
+    opacity: 0.8;
 }
 .call{
     display: flex;
@@ -380,4 +391,123 @@ a h4{
 }
 #search{
     display: none;
+}
+.mobile{
+    display: none;
+}
+/* 1024px resolurion */
+@media (width <= 1024px){
+    .header-ul{
+        display: none;
+    }
+    #sell{
+        display: none;
+    }
+    #search{
+        display: block;
+        padding: 14.5px;
+        background-color: #F8F8F8;
+        border-radius: 50px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .info :nth-child(1){
+        font-size: 18px;
+    }
+    .info :nth-last-child(2){
+        font-size: 12px;
+    }
+    .info :nth-last-child(3){
+        font-size: 12px;
+    }
+    .description{
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .descr{
+        display: flex;
+        flex-direction: column;
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+    }
+    .address div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .facilities{
+        margin-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+    }
+    .facilities p{
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+        
+    }
+    .facilities :nth-child(2){
+        text-align: end;
+    }
+    .Estate-name{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    .Estate-name div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .call{
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        gap: 20px;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        height: 326px;
+        background-color: #29B24E;
+    }
+    #author{
+        display: flex;
+        margin: 40px auto;
+    }
+    .mail{
+        display: none;
+    }
+    .footer div{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .mobile{
+        display: flex;
+        justify-content: space-between;
+        text-align:  center;
+        width: 100%;
+        margin: 84px auto;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        vertical-align: middle;
+        padding-top: 14px;
+    }
+    #sell{
+        padding: 12px;
+        background-color: #29B24E;
+        border-radius: 12px;
+        vertical-align: top;
+        color: #FFFFFF;
+    }
 }
