@@ -475,7 +475,7 @@ a h4{
         gap: 20px;
     }
     .cards{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     footer{
         height: 326px;
@@ -508,6 +508,6 @@ a h4{
         background-color: #29B24E;
         border-radius: 12px;
         vertical-align: top;
-        color: #FFFFFF;
+        color: #000000;
     }
 }
